@@ -12,7 +12,6 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv('.env')
 OPENAI_API_KEY =  os.getenv("OPENAI_API_KEY")
-print(OPENAI_API_KEY)
 VECTARA_CUSTOMER_ID = os.getenv("VECTARA_CUSTOMER_ID")
 VECTARA_CORPUS_ID = os.getenv("VECTARA_CORPUS_ID")
 VECTARA_API_KEY = os.getenv("VECTARA_API_KEY")
